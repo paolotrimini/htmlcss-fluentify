@@ -1,0 +1,110 @@
+/* regole generali */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#container, #container-float {
+    width: 90%;
+    margin: 0 5%;
+}
+
+
+/* regole header */
+
+header{
+    height: 60px;
+   /* debug*/
+    background-color: #D3D3D3;
+}
+
+/* regole main */
+
+.top-block {
+    height: 400px;
+   /* debug*/
+    background-color: #4169E1;
+}
+
+.middle-block {
+    height: 100px;
+    margin-bottom: 10px;
+    /*debug*/
+    background-color: #D3D3D3;
+
+}
+
+/* sezione float */
+
+.aside {
+    float: left;
+    width: 32%;
+    height: 300px; /* togliere l'height */
+    /*debug*/
+    background-color: #90EE90;
+}
+
+.center {
+    float: left;
+    width: 32%;
+    margin: 0 2%;
+    height: 300px; /* togliere l'height */
+   /* debug*/
+    background-color: #90EE90;
+
+}
+ /* regole row */
+
+.row-1::after {
+    content: "";
+    display: table;
+    clear: both;
+    /*debug*/
+    /* background-color: #4682B4; */
+    margin-bottom: 10px;
+}
+
+.row-2::after {
+    content: "";
+    display: table;
+    clear: both;
+    /*debug*/
+    /* background-color: #4682B4; */
+}
+
+/*regole aside*/
+
+.aside-left {
+    float: left;
+    width: 45%;
+    height: 300px; /* togliere l'height */
+    /*debug*/
+    background-color: #3CB371;
+    margin: 0 2.5%;
+}
+
+.aside-right {
+    float: left;
+    width: 45%;
+    height: 300px; /* togliere l'height */
+    /*debug*/
+    background-color: #3CB371;
+    margin: 0 2.5%;
+}
+
+
+/* sezione footer */
+
+footer{
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+   /* debug*/
+    background-color: #D3D3D3;
+}
