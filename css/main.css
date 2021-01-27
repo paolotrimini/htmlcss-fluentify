@@ -45,7 +45,9 @@ header {
 .nav-bar a {
     text-decoration: none;
     color: white;
-    font-size: 10px;
+     font-size: 10px;
+   /* font-size: 12px;*/
+
 }
 
 li:nth-child(2) {
@@ -53,13 +55,13 @@ li:nth-child(2) {
 }
 
 li:nth-child(6) {
-    margin-left: 60px;
+    margin-left: 140px;
 }
 
-/*nav button*/
+/* nav button */
 
 .btn-login a, .btn-piano a {
-    padding: 4px 15px 4px 15px;
+    padding: 4px 12px 4px 12px;
     border-radius: 3px;
 }
 
@@ -71,7 +73,9 @@ li:nth-child(6) {
     background-color: #32CD32;
 }
 
-/* hover link */
+
+
+/* hover link  (nav bar) */
 
 .btn-login a:hover, .btn-piano a:hover {
     background-color: rgba(255, 255, 255, 0.2);
@@ -80,7 +84,6 @@ li:nth-child(6) {
 
 
 /* regole main */
-
 
 .top-block {
     height: 400px;
@@ -108,7 +111,7 @@ li:nth-child(6) {
 }
 
 
-/*blocco middle*/
+/* blocco middle */
 
 .middle-block {
     height: 100px;
@@ -130,7 +133,7 @@ li:nth-child(6) {
     color: grey;
 }
 
-/* sezione float */
+/* regole blocchi float */
 
 hr {
     color: #D3D3D3;
@@ -139,6 +142,9 @@ hr {
 #container-float {
     margin-top: 20px;
 }
+
+
+/* regole  primo blocco float */
 
 .aside {
     float: left;
@@ -226,7 +232,7 @@ hr {
     margin-top: 30px;
 }
 
-/*regole secondo float*/
+/* regole secondo blocco float */
 
 .aside-left {
     float: left;
@@ -246,7 +252,6 @@ hr {
     margin: 0 2.5%;
 }
 
-/*regole secondo float*/
 
 .img-bottom {
     background-image: url(../img/mountain.svg);
@@ -279,7 +284,33 @@ hr {
 footer{
     height: 70px;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
    /* debug*/
     background-color: #D3D3D3;
+}
+
+.footer-left {
+    float: left;
+    width: 45%;
+    /* height: 300px; */
+    /*debug*/
+    /*background-color: #3CB371;*/
+    margin: 0 2.5%;
+}
+
+.footer-right {
+    float: left;
+    width: 45%;
+    /* height: 300px; */
+    /*debug*/
+    /*background-color: #3CB371;*/
+    margin: 0 2.5%;
+}
+
+.row-3::after {
+    content: "";
+    display: table;
+    clear: both;
+    /*debug*/
+    /* background-color: #4682B4; */
 }
