@@ -32,8 +32,6 @@ header {
 }
 
 #main-nav {
-    /*width: 90%;*/
-    /*text-align: center;*/
     margin: 0 7% 0 7%;
     line-height: 50px;
 }
@@ -61,7 +59,6 @@ li:nth-child(6) {
 /*nav button*/
 
 .btn-login a, .btn-piano a {
-    /*border: 1px solid white;*/
     padding: 4px 15px 4px 15px;
     border-radius: 3px;
 }
@@ -135,6 +132,10 @@ li:nth-child(6) {
 
 /* sezione float */
 
+hr {
+    color: #D3D3D3;
+}
+
 #container-float {
     margin-top: 20px;
 }
@@ -142,13 +143,12 @@ li:nth-child(6) {
 .aside {
     float: left;
     width: 32%;
-   /* height: 300px; *//* togliere l'height */
+   /* height: 300px; */
     /*debug*/
     /*background-color: #90EE90;*/
 }
 
 .img-aside, .img-center {
-    /*border-radius: 10px;*/
     width: 100%;
     height: 150px;
     /*  background-color: orange;*/
@@ -179,25 +179,24 @@ li:nth-child(6) {
     float: left;
     width: 32%;
     margin: 0 2%;
-    /*height: 300px;*/ /* togliere l'height */
+    /*height: 300px;*/
    /* debug*/
    /* background-color: #90EE90;*/
 }
 
-.text-title h3{
+.text-title h3 {
     text-align: center;
     color: #32CD32;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 18px;
     margin: 20px 0;
 }
 
 .text-title p {
-    font-size: 12px;
+    font-size: 13px;
     color: grey;
     text-align: center;
 }
-
 
  /* regole row */
 
@@ -219,24 +218,59 @@ li:nth-child(6) {
     /* background-color: #4682B4; */
 }
 
-/*regole aside*/
+.row-1 {
+    margin-bottom: 30px;
+}
+
+.row-2 {
+    margin-top: 30px;
+}
+
+/*regole secondo float*/
 
 .aside-left {
     float: left;
     width: 45%;
-    height: 300px; /* togliere l'height */
+   /* height: 300px; */
     /*debug*/
-    background-color: #3CB371;
+    /*background-color: #3CB371;*/
     margin: 0 2.5%;
 }
 
 .aside-right {
     float: left;
     width: 45%;
-    height: 300px; /* togliere l'height */
+   /* height: 300px; */
     /*debug*/
-    background-color: #3CB371;
+    /*background-color: #3CB371;*/
     margin: 0 2.5%;
+}
+
+/*regole secondo float*/
+
+.img-bottom {
+    background-image: url(../img/mountain.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 260px;
+   /* debug*/
+    /*  background-color: orange;*/
+}
+
+.text-mountain {
+    text-align: left;
+}
+
+.text-mountain p {
+    font-size: 13px;
+    color: grey;
+    margin: 10px 0;
+}
+
+.text-mountain a {
+    font-size: 10px;
 }
 
 
