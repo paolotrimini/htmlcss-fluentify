@@ -18,19 +18,101 @@ body {
 
 /* regole header */
 
-header{
+header {
     height: 60px;
    /* debug*/
-    background-color: #D3D3D3;
+    background-color: #063971;
 }
 
+#logo {
+    width: 90px;
+    vertical-align: middle;
+    padding-bottom: 10px;
+    border: 1px;
+}
+
+#main-nav {
+    /*width: 90%;*/
+    /*text-align: center;*/
+    margin: 0 7% 0 7%;
+    line-height: 50px;
+}
+
+#main-nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 7px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+li:nth-child(2) {
+    margin-left: 30px;
+}
+
+li:nth-child(6) {
+    margin-left: 60px;
+}
+
+/*nav button*/
+
+.btn-login a, .btn-piano a {
+    /*border: 1px solid white;*/
+    padding: 4px 15px 4px 15px;
+    border-radius: 3px;
+}
+
+.btn-login a {
+    border: 1px solid white;
+}
+
+.btn-piano a {
+    background-color: #32CD32;
+}
+
+/* hover link */
+
+.btn-login a:hover, .btn-piano a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid white;
+}
+
+
 /* regole main */
+
 
 .top-block {
     height: 400px;
    /* debug*/
-    background-color: #4169E1;
+    background-color: #063971;
+    background-image: url(../img/background-header.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    position: relative;
 }
+
+.box-title {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: white;
+    font-size: 25px;
+}
+
+.btn-title a {
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+}
+
+
+
+/*blocco middle*/
 
 .middle-block {
     height: 100px;
