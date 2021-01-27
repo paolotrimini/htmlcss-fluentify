@@ -115,35 +115,34 @@ li:nth-child(6) {
 
 .middle-block {
     height: 100px;
-    margin-bottom: 10px;
+    padding-top: 20px;
+    line-height: 28px;
+    text-align: center;
     /*debug*/
     background-color: #D3D3D3;
 }
 
-.middle-block {
-    text-align: center;
-    padding: 15px 0 5px 0;
-}
-
 .middle-block h2 {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: normal;
-    margin-bottom: 5px;
-
 }
 
 .middle-block h3 {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: normal;
     color: grey;
 }
 
 /* sezione float */
 
+#container-float {
+    margin-top: 20px;
+}
+
 .aside {
     float: left;
     width: 32%;
-    height: 300px; /* togliere l'height */
+   /* height: 300px; *//* togliere l'height */
     /*debug*/
     /*background-color: #90EE90;*/
 }
@@ -176,16 +175,32 @@ li:nth-child(6) {
     object-fit: cover;
 }
 
-
 .center {
     float: left;
     width: 32%;
     margin: 0 2%;
-    height: 300px; /* togliere l'height */
+    /*height: 300px;*/ /* togliere l'height */
    /* debug*/
    /* background-color: #90EE90;*/
 }
+
+.text-title h3{
+    text-align: center;
+    color: #32CD32;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.text-title p {
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+}
+
+
  /* regole row */
+
 
 .row-1::after {
     content: "";
