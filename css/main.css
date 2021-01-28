@@ -55,7 +55,7 @@ li:nth-child(2) {
 }
 
 li:nth-child(6) {
-    margin-left: 140px;
+    margin-left: 180px;
 }
 
 /* nav button */
@@ -204,6 +204,14 @@ hr {
     text-align: center;
 }
 
+.linea {
+    height: 1px;
+    width: 20%;
+    border: 0.8px solid darkgrey;
+    margin: 15px 40%;
+
+}
+
  /* regole row */
 
 
@@ -296,6 +304,12 @@ footer{
     /*debug*/
     /*background-color: #3CB371;*/
     margin: 0 2.5%;
+    line-height: 70px;
+    font-size: 16px;
+}
+
+.footer-left p {
+    margin-left: 10%;
 }
 
 .footer-right {
@@ -313,4 +327,16 @@ footer{
     clear: both;
     /*debug*/
     /* background-color: #4682B4; */
+}
+
+/* button footer */
+
+.footer-right {
+    line-height: 70px;
+}
+
+.footer-bar li {
+    display: inline-block;
+    list-style-type: none;
+    color: grey;
 }
